@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonifici Inviati</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .header {
+            background-color: #FF6600;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 22px;
+        }
+        .header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+        }
+        .container {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .table-container {
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #FF6600;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-container a {
+            text-decoration: none;
+            background-color: #FF6600;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button-container a:hover {
+            background-color: #e65c00;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #FF6600;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        @media screen and (max-width: 768px) {
+            .header, .footer {
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 20px;
+            }
+            .header p {
+                font-size: 14px;
+            }
+            th, td {
+                padding: 8px;
+                font-size: 12px;
+            }
+            .container {
+                padding: 15px;
+                box-shadow: none;
+                margin: 10px;
+            }
+            table {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Home Banking</h1>
+        <p>Bonifici Inviati</p>
+    </div>
+    <div class="container">
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Destinatario</th>
+                        <th>Importo</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024-06-25 16:00</td>
+                        <td>Sri Mahalakshmi Temple London, Barclays Bank Plc., Plaistow, Leicestershire, LE87 2BB for the credit of Lakshmi Narayana Trust</td>
+                        <td>€548.00</td>
+                        <td>Donazione</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-20</td>
+                        <td>Anna Verdi</td>
+                        <td>€1200.00</td>
+                        <td>Acconto prestazione</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-15</td>
+                        <td>Luigi Bianchi</td>
+                        <td>€500.00</td>
+                        <td>Rimborso spese</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-10</td>
+                        <td>Mercadona</td>
+                        <td>€45.00</td>
+                        <td>Spesa alimentare</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-08</td>
+                        <td>Stop and Shop</td>
+                        <td>€22.00</td>
+                        <td>Acquisti vari</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-05</td>
+                        <td>Google Service</td>
+                        <td>€3.89</td>
+                        <td>Abbonamento</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-03</td>
+                        <td>Enel Energia</td>
+                        <td>€85.00</td>
+                        <td>Bolletta luce</td>
+                    </tr>
+                    <tr>
+                        <td>2024-06-01</td>
+                        <td>Mario Rossi</td>
+                        <td>€1000.00</td>
+                        <td>Pagamento fattura</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="button-container">
+            <a href="index.html">Torna alla Home</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; Home Banking - Nickel</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
